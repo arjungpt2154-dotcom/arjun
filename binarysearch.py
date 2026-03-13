@@ -1,3 +1,6 @@
+the array element are: [13, 24, 35, 46, 57, 68, 79]
+enter the key element to search: 46
+Search Successful,key element found at location: 4
 def binarysearch(a,low,high,key):
     if low<=high:
         mid=(high+low)//2
@@ -13,4 +16,5 @@ def binarysearch(a,low,high,key):
 a=[13,24,35,46,57,68,79]
 print("the array element are:",a)
 k=int(input("enter the key element to search:"))
+
 binarysearch(a,0,len(a)-1,k)
